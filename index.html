@@ -42,10 +42,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="mx-auto navbar-nav">
-          <a class="p-3 nav-link active" aria-current="page" href="#">Home</a>
+          <a class="p-3 nav-link active" aria-current="page" href="/">Home</a>
           <a class="p-3 nav-link" href="#">How is work</a>
-          <a class="p-3 nav-link" href="/status">Status</a>
-          <a class="p-3 nav-link disabled" aria-disabled="true">About us</a>
+          <a class="p-3 nav-link disabled" href="/status">Status</a>
         </div>
       </div>
   </nav>
@@ -56,7 +55,8 @@
     <a class="m-1 flex-sm-fill text-sm-center nav-link active" href="#">Discord</a>
     <a class="m-1 flex-sm-fill text-sm-center nav-link text-light bg-primary" href="#">Jobs</a>
   </nav>
-
+  
+  <!-- Pills -->
   <div class="mt-5 d-flex  justify-content-center align-items-center">
     <ul class="nav nav-pills flex-column flex-md-row me-3 me-md-3" id="pills-tab" role="tablist">
       <li class="nav-item mx-auto" role="presentation">
@@ -73,11 +73,16 @@
       </li>
   </div>
   <div class="tab-content" id="pills-tabContent">
-    <div class="lh-sm fw-medium fs-6 text-break text-center mt-5 tab-pane fade show active" id="pills-pm" role="tabpanel" aria-labelledby="pills-pm-tab" tabindex="0">
-      PocketMine-MP (PMMP) es un software de servidor de código abierto desarrollado en PHP que permite a los usuarios crear y personalizar su propio servidor de Minecraft-Bedrock Edition, con características altamente configurables, compatibilidad con plugins y modificaciones personalizadas. <br>
-      Se lanzo el 5 de enero del 2013 y admite plataformas como Windows, MacOS, Linux
+    <div class="bg-secondary w-75 lh-sm fw-medium fs-6 p-2 text-break mx-auto text-center mt-5 tab-pane fade show active" id="pills-pm" role="tabpanel" aria-labelledby="pills-pm-tab" tabindex="0">
+      <h3 class="h3">¿What is PocketMine-MP (PMMP)?</h3>
+      es un software de servidor de código abierto desarrollado en PHP que permite a los usuarios crear y personalizar su propio servidor de Minecraft Bedrock Edition, con características altamente configurables, compatibilidad con plugins y modificaciones personalizadas. <br>
+      Se lanzo el 5 de enero del 2013 y admite plataformas como Windows, MacOS, Linux. Cuenta con una comunidad activa de desarrolladores y usuarios que brindan soporte técnico y contribuyen al desarrollo del software. <br>
+      Debido a que los plugins para este software son fáciles de codificar, es posible encontrar una gran variedad de estos y existe recopilación oficial y verificada en <a class="text-light" href="https://poggit.pmmp.io">poggit.</a>
     </div>
-    <div class="text-center mt-5 tab-pane fade" id="pills-library" role="tabpanel" aria-labelledby="pills-library-tab" tabindex="0">...</div>
+    <div class="bg-secondary lh-sm fw-medium fs-6 text-break text-center mt-5 tab-pane fade" id="pills-library" role="tabpanel" aria-labelledby="pills-library-tab" tabindex="0">
+      <h3 class="h3">¿What is library?</h3>
+      Las librerias o mejor dicho en su nombre correcto Virion son frameworks que aligeran el desarollo de complementos ya sea de Juegos o Administración
+    </div>
     <div class="text-center mt-5 tab-pane fade" id="pills-games" role="tabpanel" aria-labelledby="pills-games-tab" tabindex="0">...</div>
     <div class="text-center mt-5 tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab" tabindex="0">...</div>
   </div>
